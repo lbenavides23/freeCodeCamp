@@ -1,0 +1,247 @@
+
+@media only screen and (min-width: 450px) {
+.main-box {
+width: 390px;
+}
+.tw-fwbox {
+padding-left: 40px;
+padding-top: 7px;
+vertical-align: top;
+vertical-align: right;
+float: right;
+display: unset;
+}
+}
+
+
+
+
+html,
+body {
+  height: 100%;
+  background: #930e19;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 450px;
+  /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: -150px;
+  /* negative value of footer height */
+  height: 150px;
+  clear: both;
+  padding-top: 20px;
+}
+
+.title {
+  height: 55px;
+  background: #e9d818;
+  margin-bottom: 45px;
+  font-size: 25px;
+  font-weight: 700px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/******* Start of Header ****/
+.header {
+  height: 70px;
+  background:#343436;
+  color: rgb(181,179,175);
+  font-size: 28px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+img {
+  height:50px;
+  width:50px;
+  padding-right: 5px;
+}
+
+/******* End of Header ****/
+
+
+
+
+
+
+
+
+
+/***** Random Quote App ****/
+
+.main-box {
+  height: 100%;
+  width: 255px;
+  background: white;
+  margin: auto;
+  border: 5px solid #e9d818;
+  margin-top: 35px;
+}
+
+
+/***** Quote Header ****/
+
+.header-box {
+  height: 100%;
+}
+
+.profile-div {
+  padding-left: 8px;
+  padding-top: 7px;
+  vertical-align: top;
+}
+
+.profile {
+  width: 50px;
+  height: 43px;
+}
+
+.name {
+  font-weight: 900;
+}
+
+.sm-link {
+  color: #7f7f7f;
+}
+
+.box2 {
+  padding-top: 10px;
+}
+
+.display-inline {
+  display: inline-block;
+}
+
+.tw-fwbox {
+  padding-top: 7px;
+  vertical-align: top;
+  vertical-align: right;
+  float:left;
+  padding-left:60px;
+  display: none;
+}
+
+
+/************ Quote Section *********/
+
+.quote-box {
+  height: 100%;
+  width: 100%;
+}
+
+.quote {
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.author {
+  text-align: right;
+  height: 100%;
+  padding-right: 35px;
+  padding-bottom: 3px;
+  border-bottom: medium solid #F5F5F5;
+}
+
+
+/************ Social Buttons *********/
+
+.icon-twitter {
+  float: left;
+  padding-top: 4px;
+  padding-right: 8px;
+}
+
+.tw-text {
+  font-weight: 600;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  background: white;
+  color: #5bc0de;
+}
+
+.glyphicon-play {
+  float: left;
+}
+
+.glyphicon-check {
+  padding-left: 5px;
+  color: #1dcaff;
+}
+
+.btn-newstyle {
+  border-style: none;
+  margin: auto;
+  background: white;
+}
+
+.btns {
+  height: 100%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.btn-like {
+  width: 63px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: 500;
+  color: #7f7f7f;
+}
+
+.btn-comment {
+  width: 98px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: 500;
+  color: #7f7f7f;
+}
+
+.btn-share {
+  width: 75px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: 500;
+  color: #7f7f7f;
+}
+
+.btn-quote {
+  width: 103px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: 500;
+  color: #7f7f7f;
+}
+
+.btn-p {
+  padding-right: 2px;
+}
+
+.twitter-header {
+  padding-left: 10px;
+}
+
+
+/********* Code By *****/
+
+.codeby {
+  margin: auto;
+  height: 100%;
+  padding-top:3px;
+}
+.codebyfont{
+   color: #e9d818;
+   font-family: arial,sans-serif;
+}
