@@ -1,0 +1,133 @@
+/*******************************
+        Title Section
+*******************************/
+
+.titlepage {
+  background-color: #31355b;
+  z-index: 99;
+  height: 4.5em;
+}
+
+.titlepage h1 {
+  color: white;
+}
+
+/*******************************
+        Body Section
+*******************************/
+
+h1 {
+  font-size: 2.5em;
+  font-family: 'Kaushan Script', cursive;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: 'Kaushan Script';
+  }
+
+
+/*******************************
+        Information Section
+*******************************/
+
+
+.main {
+  background-color: rgb(174, 214, 241);
+  padding-top: 130px;
+  padding-bottom: 30px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.img-thumbnail {
+  width: 500px;
+  height: 350px;
+}
+
+.btc {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/*******************************
+        Chavez Gallery Section
+*******************************/
+
+
+
+.chavezImage {
+  z-index: 98;
+  height: 216px;
+  width: 154px;
+  margin: 10px 10px;
+  background-size: 111%;
+  background-position: center;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  -ms-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+.chavezImage:hover {
+  z-index: 99;
+  height: 300px;
+  width: 400px;
+  background-size: 121%;
+  background-position: center;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.chavezgallery {
+ background-color: #e0dcfc;
+ padding-top: 25px;
+ padding-right: 45px;
+ padding-left: 25px;
+ padding-bottom:75px;
+}
+
+
+/*******************************
+        Timeline Section
+*******************************/
+
+
+.timelinebkgd {
+  background-color: rgb(174, 214, 241);
+  padding-left: 5px;
+  padding-right: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.colortext {
+  color: rgb(244, 208, 63);
+  font-size: 25px;
+}
+
+
+/*******************************
+        Footer Section
+*******************************/
+
+.footer {
+  background-color: black;
+  align: center;
+  padding-bottom: 25px;
+}
+
+
+
+@media (max-width:325px) {
+    #mainimage {
+        max-width: 210px;
+        max-height: 250px;
+    }
